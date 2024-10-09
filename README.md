@@ -3,11 +3,17 @@ Resume Maker is a static web application that allows users to create, customize,
 
 # before cloning the repository please follow the below steps 
 * please execute the below provuide commands with details 
-  git config --global user.name "Your Name"
-  git config --global user.email "your-email@example.com"
+ ``` git
+   git config --global user.name "Your Name"
+   git config --global user.email "your-email@example.com"
+   ```
 # after that follow the below process to genrate personal access token (PAT) to clone the private repository 
 To generate a personal access token (PAT) on GitHub, you need to have the necessary permissions on the repository. Usually, this means you need to be the repository owner or have collaborator access to the repository. Here's how you can generate a PAT:
-
+```
+title: resume-maker
+author: me
+version: v1
+```
 Steps to Generate a Personal Access Token on GitHub
 Log in to GitHub:
 
@@ -50,15 +56,24 @@ Always keep your PAT secure and never expose it publicly.
 # steps to push the code from local repository to remote repository
 
 # Initialize git if not already done 
-git init  
+``` 
+git init
+```
 # Add remote repository
+```
 git remote add origin https://github.com/yourusername/your-repo.git
+```
 
 # Stage all changes
-git add .
-
+```
+git add
+```
 # Commit with a message
+```
 git commit -m "Initial commit"
+```
 
 # Push changes to the main branch
+```
 git push -u origin main
+```
